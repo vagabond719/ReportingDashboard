@@ -1,0 +1,38 @@
+﻿.gridview th {
+    -webkit-transform: rotate(90deg) translate(-60px);
+    -moz-transform: rotate(90deg) translate(-60px);
+    -ms-transform: rotate(90deg) translate(-60px);
+    -o-transform: rotate(90deg) translate(-60px);
+    transform: rotate(90deg) translate(-60px);
+}
+
+.gridview, th, td {
+  word-wrap: break-word;
+  border: 1px solid black;
+  width: 30px;
+  max-width: 30px;   
+}
+
+html > /**/ body .gridview td:not(:first-child) {
+  text-align: center;
+}
+
+html > /**/ body .gridview tr td:nth-child(1) {
+    -moz-min-width: 90px;
+    -ms-min-width: 90px;
+    -o-min-width: 90px;
+    -webkit-min-width: 90px;
+    min-width: 90px;
+  width: 90px;
+  max-width: 90px;
+}
+
+.lineup {
+    display: inline-block;
+    text-align:center; 
+    vertical-align: middle
+}
+
+body {
+           background-color: #808080;
+        }

@@ -1,0 +1,106 @@
+﻿.mGrid {
+border:3px Solid #999;
+width:100%;
+background-color:#CCC;
+border-spacing:2px;
+border-collapse:separate;
+color:#000;
+font-size:90%;
+position:relative;
+top:0;
+left:0;
+padding:4px;
+    /*max-height: 70%;
+    overflow: auto;*/
+}
+
+.label {
+color:#FFF;
+font-weight:700;
+text-align:center;
+}
+
+IMG.displayed {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+html, body {
+background-color:gray;
+}
+
+.auto-style2 {
+width:100%;
+}
+
+ul {
+list-style:none;
+z-index:599;
+margin:0;
+padding:0;
+}
+
+ul li {
+display:block;
+position:relative;
+float:right;
+border:1px solid #000;
+z-index:599;
+border-left:1px solid silver;
+}
+
+li ul {
+display:none;
+z-index:599;
+}
+
+ul li a {
+display:block;
+background:#000;
+text-decoration:none;
+white-space:nowrap;
+color:#fff;
+z-index:599;
+padding:5px 10px;
+}
+
+li:hover ul {
+display:block;
+position:absolute;
+z-index:599;
+}
+
+li:hover li {
+float:none;
+z-index:599;
+}
+
+li:hover li a:hover {
+background:#000;
+z-index:599;
+}
+
+#drop-nav li ul li {
+border-top:0;
+z-index:599;
+}
+
+div.LikeUL {
+list-style:none;
+z-index:599;
+position:relative;
+float:right;
+border:1px solid #000;
+display:block;
+background:#000;
+text-decoration:none;
+white-space:nowrap;
+color:#fff;
+padding:5px 10px 4px;
+}
+
+ul li a:hover,li:hover a {
+background:silver;
+z-index:599;
+}
